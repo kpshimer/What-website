@@ -1,3 +1,10 @@
-body {
-    font-size: 15pt;
-}
+        body {
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            height: 3000px;
+            background-color: black; 
+            font-family: arial;
+            Font-size: 18pt;
+            Color: white;   
+        }
