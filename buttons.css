@@ -1,0 +1,53 @@
+       .top-buttons {
+            width: 750px;
+            height: 60px;
+            display: flex;
+            justify-content: space-around;
+            position: fixed;
+            background-color: black;
+            z-index: 1;
+        }
+
+          .button-logos {
+            
+            height: 50px;
+            top: 20px;
+            border-style: none solid none solid;
+            border-color: white;  
+            display: flex;
+            color: white;
+            cursor: Pointer;
+            background-color: transparent;
+            padding-bottom: 10px;  
+            padding-top: 10px;
+            padding-right: 50px;
+            padding-left: 50px;
+            font-size: 20pt;
+            transition: color 2s;
+        }
+        
+          .button-websites, .button-BusinessCards {
+    
+            height: 50px;
+            top: 20px;
+            border-style: none;
+            border-color: white;  
+            display: flex;
+            color: white;
+            cursor: Pointer;
+            background-color: transparent;
+            padding-bottom: 10px;  
+            padding-top: 10px;
+            font-size: 20pt;
+            transition: color 2s;
+        }
+
+        .button-websites:hover {
+            color: darkred;
+        }
+           .button-logos:hover {
+            color: darkred;
+        }
+           .button-BusinessCards:hover {
+            color: darkred;
+        }
