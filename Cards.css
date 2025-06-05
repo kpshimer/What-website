@@ -1,7 +1,8 @@
        .cards {
               top: 700px
-              border-style: solid
-              border-color: white
+              border-style: solid;
+              border-color: white;
+              border-width: 2px;
             width: 1000px;
             height: 60px;
             display: flex;
