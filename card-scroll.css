@@ -1,9 +1,9 @@
          .card-scroll {
              
-            display: flex;
+             display: flex;
              position: absolute;
              height: 200px;
-             width: 95%vw;
+             width: 95%;
              border-style: solid; 
              border-weight: 1;
              background-color: none;
