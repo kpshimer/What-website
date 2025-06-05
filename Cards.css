@@ -1,40 +1,8 @@
-.cards{
-  display: flex;
-  height: 650px;
-  width: 75%;
-  border-style: solid;
-  border-width: 1px;
-  border-color: white;
-  color: white;
-  background-color: none;
-}
-  
-.card1{
-  height: 600px;
-  width: 1050px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: white;
-  color: white;
-  background-color: cornflowerblue;
-}
-
-.card2{
-  height: 600px;
-  width: 1050px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: white;
-  color: white;
-  background-color: indigo;
-}
-
-.card3{
-  height: 600px;
-  width: 1050px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: white;
-  color: white;
-  background-color: alicewhite;
-}
+       .cards {
+            width: 75%;
+            height: 60px;
+            display: flex;
+            justify-content: space-around;
+            position: fixed;
+            background-color: black;
+            z-index: 0;
