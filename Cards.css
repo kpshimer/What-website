@@ -1,10 +1,10 @@
        .cards {
-              top: 75%vh
+              top: 700px
               border-style: solid
-            width: 75%;
+            width: 1000px;
             height: 60px;
             display: flex;
             justify-content: space-around;
             position: fixed;
-            background-color: black;
+            background-color: blue;
             z-index: 0;
