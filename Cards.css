@@ -1,4 +1,6 @@
        .cards {
+              top: 75%vh
+              border-style: solid
             width: 75%;
             height: 60px;
             display: flex;
