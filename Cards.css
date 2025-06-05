@@ -1,27 +1,40 @@
+.cards{
+  display: flex;
+  height: 650px;
+  width: 75%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  background-color: none;
+}
+  
 .card1{
-Height: 600px;
-Width: 1050px;
-Border-style: Solid;
-Border-Width: 1px;
-border-color: white;
-Color: White;
-Background-color: CornflowerBlue;
+  height: 600px;
+  width: 1050px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  background-color: cornflowerblue;
 }
+
 .card2{
-Height: 600px;
-Width: 1050px;
-Border-style: Solid;
-Border-Width: 1px;
-border-color: white;
-Color: White;
-Background-color: indigo;
+  height: 600px;
+  width: 1050px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  background-color: indigo;
 }
+
 .card3{
-Height: 600px;
-Width: 1050px;
-Border-style: Solid;
-Border-Width: 1px;
-border-color: white;
-Color: White;
-Background-color: Alicewhite;
+  height: 600px;
+  width: 1050px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  color: white;
+  background-color: alicewhite;
 }
