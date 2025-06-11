@@ -53,18 +53,17 @@
 
 
 
-         .card1 {
-            width: 1;
-            height: 150px;
-            top: 20px;
-            border-style: solid;
-            border-color: white;  
-            display: flex;
-            color: blue;
-            cursor: Pointer;
-
-            margin: 0 20px;
-        
+            .card1 {
+                    width: 1;
+                    height: 150px;
+                    top: 20px;
+                    border-style: solid;
+                    border-color: white;  
+                    display: flex;
+                    color: blue;
+                    cursor: Pointer;
+                    margin: 0 20px;
+                
             
        }
 
