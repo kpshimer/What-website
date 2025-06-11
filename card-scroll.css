@@ -26,9 +26,9 @@
              overflow-x: scroll;
              overflow-y: hidden;
              scroll-behavior:smooth;
-             scrollbar-color: #a8d7f3 transparent;
              scrollbar-width: thin;
-             scrollbar-face-color: #e21212d0;
+             scrollbar-color: #e20707ad transparent; 
+             scrollbar-width: thin;
              z-index: 1;
              pointer-events: auto;
             
