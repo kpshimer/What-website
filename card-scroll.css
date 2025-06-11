@@ -1,4 +1,4 @@
-        .card-scroll-wrapper {
+            .card-scroll-wrapper {
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
@@ -20,16 +20,17 @@
              position: relative;
              border-style: solid; 
              border: 1px;
-             background: linear-gradient(90deg, rgba(0,0,0,0), #000000, rgb(70, 9, 9), #000000, rgb(3,2,77,);  
+             background: linear-gradient(90deg, rgba(0,0,0,0), #000000, rgb(3, 2, 77), #000000, rgba(0,0,0,0));  
              color: white;
              padding: 2px;
              overflow-x: scroll;
              overflow-y: hidden;
              scroll-behavior:smooth;
-             scrollbar-color: MidnightBlue transparent;
+             scrollbar-color: midnightblue transparent;
              scrollbar-width: thin;
              z-index: 1;
              pointer-events: auto;
+            
          }
 
             .card-scroll-wrapper::before,
@@ -53,17 +54,18 @@
 
 
 
-            .card1 {
-                    width: 1;
-                    height: 150px;
-                    top: 20px;
-                    border-style: solid;
-                    border-color: white;  
-                    display: flex;
-                    color: blue;
-                    cursor: Pointer;
-                    margin: 0 20px;
-                
+         .card1 {
+            width: 1;
+            height: 150px;
+            top: 20px;
+            border-style: solid;
+            border-color: white;  
+            display: flex;
+            color: blue;
+            cursor: Pointer;
+
+            margin: 0 20px;
+        
             
        }
 
@@ -128,6 +130,9 @@
 
                     margin: 0 20px;
             }
+
+
+
 
 
 
