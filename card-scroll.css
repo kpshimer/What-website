@@ -1,4 +1,4 @@
-                       .card-scroll-wrapper {
+        .card-scroll-wrapper {
                 display: flex;
                 flex-direction: row;
                 justify-content: center;
@@ -28,10 +28,8 @@
              scroll-behavior:smooth;
              scrollbar-color: #e20707ad transparent;
              scrollbar-width: thin;
-           
              z-index: 1;
              pointer-events: auto;
-            
          }
 
             .card-scroll-wrapper::before,
