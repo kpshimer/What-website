@@ -28,6 +28,7 @@
              scroll-behavior:smooth;
              scrollbar-color: #a8d7f3 transparent;
              scrollbar-width: thin;
+             scrollbar-face-color: #e21212d0;
              z-index: 1;
              pointer-events: auto;
             
