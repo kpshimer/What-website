@@ -3,15 +3,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-   
     position: relative;
-
     left: 0;
-  
-    width: 500px;
-    height: 1100px;
-    margin: 0 auto;
+    width: 90vw;
+    max-width: 500px;
+    min-width: 0;
+    height: auto;
+    margin: auto;
     z-index: 100;
     background: rgba(238, 4, 4, 0.23);
     color: white;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .center {
+        width: 98vw;
+        padding: 8px;
+    }
 }
