@@ -1,11 +1,16 @@
-              .top-buttons {
-            width: 750px;
+       .top-buttons {
+            width: 100vw;
             height: 60px;
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
+            align-items: center;
             position: fixed;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
             background-color: black;
             z-index: 1;
+            gap: 2rem;
         }
 
           .button-logos {
