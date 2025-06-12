@@ -1,8 +1,11 @@
         body {
             display: flex;
             justify-content: center;
+            width: 100%;
+            min-height: 100%
             margin: 0;
-            height: 3000px;
+            padding: 0;
+            box-sizin: border-box;
             background-color: black; 
             font-family: arial;
             Font-size: 18pt;
