@@ -5,8 +5,10 @@
             justify-content: center;
             align-items: center;
             position: fixed;
+            top: 0;
             left: 0;
             right: 0;
+          
             margin: 0 auto;
             background-color: black;
             z-index: 1;
@@ -16,15 +18,15 @@
           .button-logos {
             
             height: 50px;
-            top: 20px;
             border-style: none solid none solid;
             border-color: white;  
             display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
             color: white;
             cursor: Pointer;
             background-color: transparent;
-            padding-bottom: 10px;  
-            padding-top: 10px;
             padding-right: 50px;
             padding-left: 50px;
             font-size: 20pt;
@@ -34,15 +36,15 @@
           .button-websites, .button-BusinessCards {
     
             height: 50px;
-            top: 20px;
             border-style: none;
             border-color: white;  
             display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
             color: white;
             cursor: Pointer;
             background-color: transparent;
-            padding-bottom: 10px;  
-            padding-top: 10px;
             font-size: 20pt;
             transition: color 2s;
         }
@@ -56,4 +58,3 @@
            .button-BusinessCards:hover {
             color: darkred;
         }
-
