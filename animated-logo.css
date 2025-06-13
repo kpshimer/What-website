@@ -1,7 +1,7 @@
         .gif-container {
     width: 100%;
     max-width: 700px;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 10px auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,5 +17,7 @@
 @media (max-width: 700px) {
     .gif-container {
         margin-top: 70px; /* Adjust as needed for your .top-buttons height */
+            left: 50%;
+            
     }
 }
