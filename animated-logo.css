@@ -1,13 +1,13 @@
         .gif-container {
-                top: 70px;
+
     width: 100%;
     max-width: 700px;
-    margin: 0 auto 10px auto;
+    margin: 100px auto 10px auto; /* Increase top margin for more space */
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 0;    
-        }
+    z-index: 0;
+
 
         .gif-container img {
             max-width: 100%; 
