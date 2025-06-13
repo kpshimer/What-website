@@ -3,9 +3,13 @@
             justify-content: center;
             width: 100%;
             min-height: 100%
-            margin: 0 auto;
+            margin: 0;
             padding: 0;
             box-sizin: border-box;
             background-color: black; 
- 
+
         }
+
+        *, *::before, *::after {
+    box-sizing: inherit;
+    } 
