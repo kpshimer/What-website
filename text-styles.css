@@ -2,6 +2,7 @@
     position: absolute;
     top: 500px;           /* Adjust as needed */
     left: 50%;
+    right: 50%;
     transform: translateX(-50%);
     width: 90%;
     text-align: center;
