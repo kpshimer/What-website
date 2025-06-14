@@ -18,8 +18,8 @@
 @media (max-width: 750px) {
     .gif-container {
         margin-top: 170px; /* Adjust as needed for your .top-buttons height */
-            left: 200px;
-            width: 700px
+        
+            max-width: 100%
             
     }
 }
