@@ -59,3 +59,19 @@
             color: darkred;
         }
 
+        @media screen and (max-width: 600px) {
+            .top-buttons {
+                flex-direction: row;
+                max-width: 100%vw;
+                height: auto;
+                padding: 5px 0;
+                z-index: 100;
+            }
+            .button-logos, .button-websites, .button-BusinessCards {
+                width: 100%;
+                text-align: justify;
+                padding: 5px 0;
+                font-size: 10pt;
+            }
+          
+        }
