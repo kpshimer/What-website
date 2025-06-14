@@ -15,7 +15,7 @@
             object-fit: contain;
         }
 
-@media (max-width: 750px) {
+@media (max-width: 1000px) {
     .gif-container {
         margin-top: 170px; /* Adjust as needed for your .top-buttons height */
             max-width: 90%vw; 
