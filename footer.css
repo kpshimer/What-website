@@ -11,8 +11,16 @@
     font-size: 20px;
     font-family: Arial, sans-serif;
     z-index: 100;
-    background-color: MidnightBlue;
+    background-color: rgb(1, 6, 31);
     opacity: 1;
     color: white;
     z-index: 100;
+}
+
+@media screen and (max-width: 600px) {
+    .footer {
+        font-size: 16px; /* Adjust font size for smaller screens */
+        padding: 5px; /* Add some padding for better touch targets */
+    }
+    
 }
