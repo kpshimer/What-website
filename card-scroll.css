@@ -6,7 +6,7 @@
                 position: relative;
 
                 width: 75%;
-                height: 200px;   
+                height: 400px;   
                 margin: 200px auto 0 auto; 
                 z-index: 3;
                 pointer-events: none;
@@ -20,6 +20,7 @@
              border: 1px;
              background: linear-gradient(90deg, rgba(0,0,0,0), #000000, rgb(3, 2, 77), #000000, rgba(0,0,0,0));  
              color: white;
+             height:   290;
              padding: 2px;
              overflow-x: scroll;
              overflow-y: hidden;
@@ -30,6 +31,122 @@
              pointer-events: auto;
             
          }
+
+            .card-scroll-wrapper::before,
+            .card-scroll-wrapper::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                width: 40%;
+                height: 100%;
+                z-index: 10;
+                pointer-events: none;
+            }
+            .card-scroll-wrapper::before {
+                left: 0;
+                background: linear-gradient(to right, rgba(0, 0, 0, 1), transparent);
+            }
+            .card-scroll-wrapper::after {
+                right: 0;
+                background: linear-gradient(to left, rgba(0, 0, 0, 1), transparent);
+            }
+
+
+
+         .card1 {
+            width: 1;
+            height: 150px;
+            top: 20px;
+            border-style: solid;
+            border-color: white;  
+            display: flex;
+            color: blue;
+            cursor: Pointer;
+
+            margin: 0 20px;
+        
+            
+       }
+
+            .card2 {
+                    width: 1;
+                    height: 150px;
+                    top: 20px;
+                    border-style: solid;
+                    border-color: white;  
+                    display: flex;
+                    color: blue;
+                    cursor: Pointer;
+
+                    margin: 0 20px;
+         }
+
+            .card3 {
+                    width: 1;
+                    height: 150px;
+                    top: 20px;
+                    border-style: solid;
+                    border-color: white;  
+                    display: flex;
+                    color: blue;
+                    cursor: Pointer;
+
+                    margin: 0 20px;
+            }
+            .card4 {
+                    width: 1;
+                    height: 150px;
+                    top: 20px;
+                    border-style: solid;
+                    border-color: white;  
+                    display: flex;
+                    color: blue;
+                    cursor: Pointer;
+
+                    margin: 0 20px;
+            }
+            .card5 {
+                    width: 1;
+                    height: 150px;
+                    top: 20px;
+                    border-style: solid;
+                    border-color: white;  
+                    display: flex;
+                    color: blue;
+                    cursor: Pointer;
+
+                    margin: 0 20px;
+            }
+            .card6 {
+                    width: 1;
+                    height: 150px;
+                    top: 20px;
+                    border-style: solid;
+                    border-color: white;  
+                    display: flex;
+                    color: blue;
+                    cursor: Pointer;
+
+                    margin: 0 20px;
+            }
+
+@media (max-width: 700px) {
+    .card-scroll-wrapper {
+        width: 90%;
+        height: 125px;
+        margin: 225px 125px 325px auto;
+    }
+    .card-scroll {
+        height: 90%;
+    }
+    .card1, .card2, .card3, .card4, .card5, .card6 {
+        width: 1;
+        height: 90%;
+        margin: 0 10px;
+        
+    }
+}
+
 
             .card-scroll-wrapper::before,
             .card-scroll-wrapper::after {
